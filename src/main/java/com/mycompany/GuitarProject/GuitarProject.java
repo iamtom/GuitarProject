@@ -30,6 +30,7 @@ public class GuitarProject {
         
         System.out.println("What would you like to name your guitar?");
         String guitarName = scanner.nextLine();
+        //check name not taken
 
         System.out.println("What make is it?");
         String guitarMake = scanner.nextLine();
